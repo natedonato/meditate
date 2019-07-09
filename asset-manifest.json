@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/meditate/static/css/main.2cce8147.chunk.css",
+    "main.js": "/meditate/static/js/main.7353e7a8.chunk.js",
+    "main.js.map": "/meditate/static/js/main.7353e7a8.chunk.js.map",
+    "runtime~main.js": "/meditate/static/js/runtime~main.3d98ef7b.js",
+    "runtime~main.js.map": "/meditate/static/js/runtime~main.3d98ef7b.js.map",
+    "static/js/2.b41502e9.chunk.js": "/meditate/static/js/2.b41502e9.chunk.js",
+    "static/js/2.b41502e9.chunk.js.map": "/meditate/static/js/2.b41502e9.chunk.js.map",
+    "index.html": "/meditate/index.html",
+    "precache-manifest.7284a4877039757bc73481dc4b35a355.js": "/meditate/precache-manifest.7284a4877039757bc73481dc4b35a355.js",
+    "service-worker.js": "/meditate/service-worker.js",
+    "static/css/main.2cce8147.chunk.css.map": "/meditate/static/css/main.2cce8147.chunk.css.map",
+    "static/media/logo.svg": "/meditate/static/media/logo.5d5d9eef.svg"
+  }
+}

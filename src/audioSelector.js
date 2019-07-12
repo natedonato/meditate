@@ -5,10 +5,18 @@ class AudioSelector extends React.Component {
         super(props);
 
         this.state = {
-            play: false
+            play: false,
+            sounds: {
+                birds: true,
+                rain: true,
+                ocean: true,
+            }
         };
 
-        this.audio = new Audio('./audio/birds.mp3');
+        this.birds = new Audio('./audio/birds.mp3');
+        this.birds.volume = "0.8";
+        this.rain = new Audio('./audio/rain.ogg');
+        this.ocean = new Audio('./audio/ocean.wav');
 
         this.togglePlay = this.togglePlay.bind(this);
 
@@ -17,16 +25,24 @@ class AudioSelector extends React.Component {
 
     togglePlay(){
         if(this.state.play){
-            this.audio.pause();
+            Object.keys(this.state.sounds).forEach(sound => {
+                this[sound].pause();
+            });
+            this.setState({play: false});
         }else{
-            this.audio.play();
+            Object.keys(this.state.sounds).forEach(sound => {
+                if(this.state.sounds[sound]){
+                    this[sound].play();
+                }
+            });
+            this.setState({play: true});
         }
     }
 
     render(){
         return(
         <div>
-            <button onClick={this.togglePlay} />
+            <button onClick={this.togglePlay}>{this.state.play ? "pause" : "play"} </button>
         </div>
         )
     }

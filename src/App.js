@@ -10,8 +10,8 @@ function App() {
         <HeaderBar />
         <Timer />
          */}
+         
         <AudioSelector />
-        <TestComp big="apple" />
     </div>
   );
 }

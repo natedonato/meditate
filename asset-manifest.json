@@ -1,18 +1,20 @@
 {
   "files": {
-    "main.css": "/meditate/static/css/main.420af784.chunk.css",
-    "main.js": "/meditate/static/js/main.86aefeb5.chunk.js",
-    "main.js.map": "/meditate/static/js/main.86aefeb5.chunk.js.map",
+    "main.css": "/meditate/static/css/main.7c4dfc79.chunk.css",
+    "main.js": "/meditate/static/js/main.a1ea1d54.chunk.js",
+    "main.js.map": "/meditate/static/js/main.a1ea1d54.chunk.js.map",
     "runtime~main.js": "/meditate/static/js/runtime~main.3d98ef7b.js",
     "runtime~main.js.map": "/meditate/static/js/runtime~main.3d98ef7b.js.map",
-    "static/js/2.a51675cd.chunk.js": "/meditate/static/js/2.a51675cd.chunk.js",
-    "static/js/2.a51675cd.chunk.js.map": "/meditate/static/js/2.a51675cd.chunk.js.map",
+    "static/js/2.c696e79f.chunk.js": "/meditate/static/js/2.c696e79f.chunk.js",
+    "static/js/2.c696e79f.chunk.js.map": "/meditate/static/js/2.c696e79f.chunk.js.map",
     "index.html": "/meditate/index.html",
-    "precache-manifest.354a6b6994f7afe069a24a486d96e8e6.js": "/meditate/precache-manifest.354a6b6994f7afe069a24a486d96e8e6.js",
+    "precache-manifest.8f25271db83fd477c8eff78af6f13f22.js": "/meditate/precache-manifest.8f25271db83fd477c8eff78af6f13f22.js",
     "service-worker.js": "/meditate/service-worker.js",
-    "static/css/main.420af784.chunk.css.map": "/meditate/static/css/main.420af784.chunk.css.map",
+    "static/css/main.7c4dfc79.chunk.css.map": "/meditate/static/css/main.7c4dfc79.chunk.css.map",
     "static/media/beach.jpg": "/meditate/static/media/beach.3c1f74af.jpg",
     "static/media/clouds.jpg": "/meditate/static/media/clouds.893e7dcb.jpg",
-    "static/media/forest3.jpg": "/meditate/static/media/forest3.79815029.jpg"
+    "static/media/forest3.jpg": "/meditate/static/media/forest3.79815029.jpg",
+    "static/media/sand.jpg": "/meditate/static/media/sand.ceadf832.jpg",
+    "static/media/temple.jpg": "/meditate/static/media/temple.88f37b36.jpg"
   }
 }

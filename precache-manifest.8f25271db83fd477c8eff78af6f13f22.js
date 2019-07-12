@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9eef0b039d4b9e8ed3cd267f6519c21e",
+    "revision": "1b2ddefc1b19a05040695f08c464c603",
     "url": "/meditate/index.html"
   },
   {
-    "revision": "45f975b465199bc4ccf2",
-    "url": "/meditate/static/css/main.420af784.chunk.css"
+    "revision": "36fcecb5f655cc685807",
+    "url": "/meditate/static/css/main.7c4dfc79.chunk.css"
   },
   {
-    "revision": "6e9284201a294d3d0da8",
-    "url": "/meditate/static/js/2.a51675cd.chunk.js"
+    "revision": "6ab5d61a2997cf2ed804",
+    "url": "/meditate/static/js/2.c696e79f.chunk.js"
   },
   {
-    "revision": "45f975b465199bc4ccf2",
-    "url": "/meditate/static/js/main.86aefeb5.chunk.js"
+    "revision": "36fcecb5f655cc685807",
+    "url": "/meditate/static/js/main.a1ea1d54.chunk.js"
   },
   {
     "revision": "0a6c3fdb777897ec29bc",
@@ -30,5 +30,13 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "798150299eac4624ea84d837dc9d148f",
     "url": "/meditate/static/media/forest3.79815029.jpg"
+  },
+  {
+    "revision": "ceadf832943a34699ac8865904de5bea",
+    "url": "/meditate/static/media/sand.ceadf832.jpg"
+  },
+  {
+    "revision": "88f37b3679d58471952893b554014f43",
+    "url": "/meditate/static/media/temple.88f37b36.jpg"
   }
 ]);

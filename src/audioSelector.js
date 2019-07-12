@@ -6,11 +6,7 @@ class AudioSelector extends React.Component {
 
         this.state = {
             play: false,
-            sounds: {
-                birds: true,
-                rain: true,
-                ocean: true,
-            }
+            selection: "ocean"
         };
 
         this.birds = new Audio('./audio/birds.mp3');
@@ -22,28 +18,43 @@ class AudioSelector extends React.Component {
 
     }
 
+    toggleSelection(choice, e){
+        this.props.changeBg(choice);
+        if(!this.state.play) {
+            this.setState({selection: choice});
+        }else{
+            this.togglePlay();
+            this.setState({selection: choice}, () => this.togglePlay()
+            );
+        }
+    }
 
     togglePlay(){
         if(this.state.play){
-            Object.keys(this.state.sounds).forEach(sound => {
-                this[sound].pause();
-            });
+            if(this.state.selection){
+                this[this.state.selection].pause();
+            }
             this.setState({play: false});
         }else{
-            Object.keys(this.state.sounds).forEach(sound => {
-                if(this.state.sounds[sound]){
-                    this[sound].play();
-                }
-            });
+            if(this.state.selection){
+                this[this.state.selection].play();
+            }
             this.setState({play: true});
         }
     }
 
     render(){
         return(
-        <div>
+        <>
+        <div className = "audioSelector">
+            <div className={this.state.selection === "rain" ? "selected" : "unselected"} onClick={(e) => this.toggleSelection("rain", e)} > Rain </div>
+            <div className={this.state.selection === "ocean" ? "selected" : "unselected"} onClick={(e) => this.toggleSelection("ocean", e)} > Ocean </div>
+            <div className={this.state.selection === "birds" ? "selected" : "unselected"} onClick={(e) => this.toggleSelection("birds", e)} > Birds </div>
+
+
+            </div>
             <button onClick={this.togglePlay}>{this.state.play ? "pause" : "play"} </button>
-        </div>
+        </>
         )
     }
 }

@@ -46,5 +46,5 @@ code {
 
 .selected{
   border: 1px solid black !important;
-  background: rgba(239, 255, 10, 0.4) !important;
+  background: rgba(180, 180, 180, 0.4) !important;
 }

@@ -3,6 +3,7 @@ import './App.css';
 import beach from './images/beach.jpg';
 import rain from './images/clouds.jpg';
 import birds from './images/forest3.jpg';
+import temple from './images/temple.jpg';
 import AudioSelector from './audioSelector';
 
 
@@ -25,6 +26,9 @@ class App extends React.Component {
         break;
       case "birds":
         this.setState({ imageUrl: birds });
+        break;
+      case "prayer":
+        this.setState({ imageUrl: temple });
         break;
 
 

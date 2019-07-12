@@ -13,6 +13,13 @@ class AudioSelector extends React.Component {
         this.birds.volume = "0.8";
         this.rain = new Audio('./audio/rain.ogg');
         this.ocean = new Audio('./audio/ocean.wav');
+        this.prayer = new Audio('./audio/prayer.mp3');
+        this.birds.loop = true;
+        this.rain.loop = true;
+        this.ocean.loop = true;
+        this.prayer.loop = true;
+
+
 
         this.togglePlay = this.togglePlay.bind(this);
 
@@ -47,9 +54,11 @@ class AudioSelector extends React.Component {
         return(
         <>
         <div className = "audioSelector">
+            <div style={{color: "red"}}className={this.state.selection === null ? "selected" : "unselected"} onClick={(e) => this.toggleSelection(null, e)} > Mute </div>
             <div className={this.state.selection === "rain" ? "selected" : "unselected"} onClick={(e) => this.toggleSelection("rain", e)} > Rain </div>
             <div className={this.state.selection === "ocean" ? "selected" : "unselected"} onClick={(e) => this.toggleSelection("ocean", e)} > Ocean </div>
             <div className={this.state.selection === "birds" ? "selected" : "unselected"} onClick={(e) => this.toggleSelection("birds", e)} > Birds </div>
+            <div className={this.state.selection === "prayer" ? "selected" : "unselected"} onClick={(e) => this.toggleSelection("prayer", e)} > Gongs </div>
 
 
             </div>

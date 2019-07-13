@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2ac2e609488d0fe9682ac3a40f94d5fd",
+    "revision": "943a4019cb50d6a7417bc0dfdc35b0fb",
     "url": "/meditate/index.html"
   },
   {
-    "revision": "5c2edb816e0fd66c0942",
+    "revision": "b96dd09e80a57e8090e8",
     "url": "/meditate/static/css/main.c5115cb2.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/meditate/static/js/2.761e5bb3.chunk.js"
   },
   {
-    "revision": "5c2edb816e0fd66c0942",
-    "url": "/meditate/static/js/main.b9d39fd2.chunk.js"
+    "revision": "b96dd09e80a57e8090e8",
+    "url": "/meditate/static/js/main.deff523c.chunk.js"
   },
   {
     "revision": "0a6c3fdb777897ec29bc",

@@ -1,4 +1,5 @@
 import React from 'react';
+import Timer from './timer';
 
 class AudioSelector extends React.Component {
     constructor(props){
@@ -60,8 +61,10 @@ class AudioSelector extends React.Component {
             <div className={this.state.selection === "birds" ? "selected" : "unselected"} onClick={(e) => this.toggleSelection("birds", e)} > Birds </div>
             <div className={this.state.selection === "prayer" ? "selected" : "unselected"} onClick={(e) => this.toggleSelection("prayer", e)} > Gongs </div>
 
-
             </div>
+
+            <Timer />
+
             <button onClick={this.togglePlay}>{this.state.play ? "pause" : "play"} </button>
         </>
         )

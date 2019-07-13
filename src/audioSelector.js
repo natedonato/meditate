@@ -63,9 +63,9 @@ class AudioSelector extends React.Component {
 
             </div>
 
-            <Timer />
+            <Timer togglePlay={this.togglePlay}/>
 
-            <button onClick={this.togglePlay}>{this.state.play ? "pause" : "play"} </button>
+            {/* <button onClick={this.togglePlay}>{this.state.play ? "pause" : "play"} </button> */}
         </>
         )
     }

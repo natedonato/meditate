@@ -77,6 +77,7 @@ class Timer extends React.Component {
                 <p>
                         Let go of the mouse and keyboard and just relax for a few minutes.
                 </p>
+                
                 <br />
                     <button onClick={() => this.start()}> Pause </button>
             </div>

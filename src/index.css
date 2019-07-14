@@ -60,13 +60,80 @@ code {
 .timer > div{
   color: white;
   text-shadow: 2px 2px #000000;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 800;
   cursor: pointer;
   transition: all 0.1s linear;
+
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
 }
 
 .selectedTimer{
   color: rgb(255, 244, 87) !important;
-  font-size: 50px !important;
+  font-size: 55px !important;
+
+   -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+}
+
+.activeTimer{
+  color: rgb(255, 255, 255) !important;
+  font-size: 55px !important;
+}
+
+button{
+  display: inline-block;
+  border-radius: 4px;
+  background-color: rgba(135, 206, 235, 0.9);
+  /* background-color: skyblue; */
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 22px;
+  padding: 10px;
+  width: 140px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+button:hover span {
+  padding-right: 25px;
+}
+
+button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+button:active {
+  outline: none;
 }

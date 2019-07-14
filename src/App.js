@@ -43,7 +43,7 @@ class App extends React.Component {
   return(
     <div className="App" style={{ backgroundImage: `url(${this.state.imageUrl})`}}>
       <h1>Meditate</h1>
-      <p> Meditation has many clinically demonstrated health benefits and can be done right at your desk. </p>
+      <p> Meditation has many clinically demonstrated health benefits and can be done almost anywhere, even right at your desk. </p>
 
 
         <AudioSelector changeBg={this.changeBg} />

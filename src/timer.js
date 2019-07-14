@@ -62,22 +62,21 @@ class Timer extends React.Component {
                     <div onClick={() => this.toggleSelect(5)} 
                     className={this.state.selection === 5 ? "selectedTimer" : ""}>5:00</div>
                     <br />
-                    <button onClick={()=>this.start()}> Begin </button>
+                    <button onClick={()=>this.start()}><span>Start</span></button>
                 </div>
             )
         }else{
             return(
             <div className="timer">
 
-                <div>
-                    
+                <div className="activeTimer">
                     {this.state.currentTime}
                 </div>
 
                 <p>
                         Let go of the mouse and keyboard and just relax for a few minutes.
                 </p>
-                
+
                 <br />
                     <button onClick={() => this.start()}> Pause </button>
             </div>
